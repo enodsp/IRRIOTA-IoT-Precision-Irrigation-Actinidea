@@ -57,6 +57,30 @@ While the system was primarily focused on irrigation monitoring, its sensors and
 - **Pest and disease prediction**: Anticipate favorable conditions for fungal diseases and pest outbreaks  
 - **Cross-crop compatibility**: Easily adaptable to other crops such as **vineyards, olive groves, and fruit orchards**, by adjusting installation depth and crop-specific thresholds
 
+---
+
+## Usage Notes
+
+⚠️ **This code was written and tested using the Arduino IDE.**  
+Before uploading to your ESP32, make sure you have installed all the required libraries. These include:
+
+- `WiFi.h`
+- `time.h`
+- `DHT.h`
+- `OneWire.h`
+- `DallasTemperature.h`
+- `ESP_Google_Sheet_Client.h`
+
+You can install them via the **Library Manager** in the Arduino IDE (`Sketch > Include Library > Manage Libraries...`).
+
+🔧 To start using the system, you only need to modify the sections marked as:
+
+```cpp
+//============================= VARIÁVEIS A MODIFICAR PELO UTILIZADOR ===================================//
+```
+
+This includes your Wi-Fi credentials, Google Cloud project information, and the Google Sheets ID.
+For guidance on how to configure Google Sheets integration with the ESP32, we recommend this YouTube tutorial: Meter link
 
 ## Notes
 
