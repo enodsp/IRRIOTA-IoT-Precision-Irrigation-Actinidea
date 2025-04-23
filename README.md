@@ -37,13 +37,10 @@ It also explores the **agronomic applications** of the system, with practical ex
 ## Google Sheets Structure
 
 - **Column A**: Date and Time (automatically generated)  
-- **Columns B–N**: Sensor readings (Temperature, Humidity, Rainfall, Resistance, Water Tension, Soil Moisture by depth and interpolation)
+- **Columns B–N**: Sensor readings (Temperature, Humidity, Rainfall, Soil Electrical Resistance, Soil Water Tension, Soil Moisture by depth and interpolation)
 
 ---
 
 ## Notes
 
 - All logic for reading, sending, and resetting is **well-documented** and has been **field-tested in a professional kiwi production environment**, under the supervision of an expert agronomic team from a leading fruit company.
-
-
-
