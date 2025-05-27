@@ -1,4 +1,5 @@
 ## Agricultural Monitoring System with ESP32 and Google Sheets
+## IRRIOTA project (Irrigation + IoT + Actinidia)
 
 This project is a complete environmental monitoring system designed for agricultural applications. It features automatic sensor data collection, local processing via ESP32, and seamless data submission to Google Sheets using the Google Cloud API. It is ideal for supporting irrigation decision-making.
 
@@ -76,12 +77,13 @@ You can install them via the **Library Manager** in the Arduino IDE (`Sketch > I
 🔧 To start using the system, you only need to modify the sections marked as:
 
 ```cpp
-//============================= VARIÁVEIS A MODIFICAR PELO UTILIZADOR ===================================//
+//============================= TO BE MODIFIED BY THE USER  ===================================//
 ```
 
 This includes your Wi-Fi credentials, Google Cloud project information, and the Google Sheets ID.
-For guidance on how to configure Google Sheets integration with the ESP32, we recommend this YouTube tutorial: Meter link
+For guidance on how to configure Google Sheets integration with the ESP32, we recommend this YouTube tutorial: https://www.youtube.com/watch?v=ow5ZIrz60_4
 
 ## Notes
 
 - All logic for reading, sending, and resetting is **well-documented** and has been **field-tested in a professional kiwi production environment**, under the supervision of an expert agronomic team from a leading fruit company.
+- This repository includes photos not used in the article, which may help to better understand the system assembly.
